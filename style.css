@@ -1,0 +1,67 @@
+#welcome{
+font-size: 25px;
+}
+
+body {
+    text-align: center;
+     background-color: chocolate;
+}
+
+
+.menu1{
+    list-style: none;
+    font-family: Tahoma;  
+    float: center;
+    top:10px;
+    right:80px;
+    cursor:pointer;
+    color:mediumvioletred;
+}
+
+.links{
+    float: right;
+    color: firebrick;
+ padding-top:5px;
+    padding-left:10px;
+padding-right:10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.menu1:hover, .menu1:active
+{
+    font-size: 150%;
+}
+
+#Insp{
+    text-shadow: none;
+    font-size: 30px;
+    font-family: Tahoma;
+    padding: 20px;
+}
+#about{
+    text-shadow: none;
+    font-size: 30px;
+    font-family: Tahoma;
+    padding: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#myCarousel {
+    background-color: blueviolet;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
